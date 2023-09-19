@@ -1,0 +1,61 @@
+<!doctype HTML>
+<HTML>
+<HEAD>
+  <TITLE>JOB APPLICATION</TITLE>
+</HEAD>
+<BODY>
+<DIV CLASS="MAIN">
+<DIV CLASS="REGISTER">
+  <H2>REGISTER HERE</H2>
+<FORM ID="REGISTER"METHOD="POST">
+<LABLE>FIRST NAME :</LABLE>
+<BR>
+<INPUT TYPE="TEXT" NAME="FNAME"
+ID="NAME" PLACEHOLDER="Enter your First Name">
+<BR><BR>
+<LABLE>Last Name : </LABLE>
+<BR>
+<INPUT TYPE="TEXT" NAME="LNAME"
+ID="NAME"PLACEHOLDER="Enter Your Last Name">
+<BR><BR>
+<LABLE>Your Age :</LABLE>
+<BR>
+<INPUT TYPE="number" name="age"
+ID="name"placeholder+"how Old are You/">
+<br><br>
+</FORM>
+ /<input type="email" name="email"
+id="name"PLACEHOLDER="Enter Your Vaild Email">
+<br><br>
+<lable>Gender :</LABLE>
+<br>
+&nbsp;&nbsp;nbsp;
+ <INPUT TYPE ="radio" name "gender"
+id="male">
+&nbsp;
+<span ID="male">MALE</SPAN>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="radio" name="gender"
+id="female">
+&nbsp;
+<span id="female">Female</span>
+<br><br>
+<LABLE>known Language :</LABLE>
+&nbsp;&nbsp;&nbsp;
+ <input type="checkbox" name="lang"
+id="hindi">
+&nbsp;
+<span ID="hindi">Hindi<?span>
+&nbsp;&nbsp;&nbsp;&nbsp;
+ <input TYPE="checkbox" name="lang"
+ id="hindi">
+ &nbsp;
+<SPAN id="eng">English</SPAN>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<br><br>
+ <input type="submit" VALUE="submit"
+name="submit" ID="submit">
+</DIV>
+</DIV>
+</BODY>
+</HTML>
